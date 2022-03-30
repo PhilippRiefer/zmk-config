@@ -18,6 +18,21 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 / {
+    macros {
+        a_umlaut: a_umlaut {
+            label = "MC_a_umlaut";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp q>
+                , <&macro_release &kp RALT>
+                ;
+        };
+    };
+};
+
+/ {
     keymap {
         compatible = "zmk,keymap";
 
