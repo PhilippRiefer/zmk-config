@@ -30,7 +30,7 @@
 
         layer_layer_layer_lower_layer {
             bindings = <
- &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &kp F10  &kp F11  &kp F12   &none   &none   &none   &none   &none  &kp UP   &none   &none   &none  &kp F7  &kp F8  &kp F9   &none   &none   &none   &none  &kp LEFT  &kp DOWN  &kp RIGHT   &none   &none  &kp F4  &kp F5  &kp F6   &none   &none   &none  &kp LEFT_SHIFT  &ext_power EP_ON  &ext_power EP_OFF   &none   &none   &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F1  &kp F2  &kp F3   &none   &none   &none   &none   &none   &none   &none  &kp DEL   &none   &none   &none
+ &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &kp F10  &kp F11  &kp F12   &none   &none  &mt RALT S   &none   &none  &kp UP   &none   &none   &none  &kp F7  &kp F8  &kp F9   &none   &none  &mt RALT Y   &none  &kp LEFT  &kp DOWN  &kp RIGHT   &none   &none  &kp F4  &kp F5  &kp F6   &none  &mt RALT Q  &mt RALT P  &kp LEFT_SHIFT  &ext_power EP_ON  &ext_power EP_OFF   &none   &none   &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F1  &kp F2  &kp F3   &none   &none   &none   &none   &none   &none   &none  &kp DEL   &none   &none   &none
             >;
         };
 
